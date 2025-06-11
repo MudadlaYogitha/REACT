@@ -7,7 +7,7 @@ function Comp5(){
     //every time the count changes,the title also changes
     //even without use effect same function happens but using it code is organized,and also can say the when it renders,mounts etc
     useEffect(()=>{
-        document.title='Count: ${count} ${color}';
+        document.title= `Count: ${count}`;
     },[count,color]//if we use [] it happens only once
     );
     function addcnt(){

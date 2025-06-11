@@ -15,6 +15,7 @@ import Counter2 from './Counter2.jsx';
 import Component3 from './Component3.jsx';
 import ToDo from './ToDo.jsx';
 import Comp5 from './Comp5.jsx';
+import Comp6 from './Comp6.jsx';
 
 function App() {
      return(
@@ -38,6 +39,7 @@ function App() {
          <Counter2/>
          <ToDo/>
          <Comp5/>
+         <Comp6/>
          <Footer/>
          
       </div>
