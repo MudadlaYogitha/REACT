@@ -9,9 +9,18 @@ function ToDo(){
          setNew(event.target.value);
     }
     function addTask(){
+        if(newTask.trim()!==''){
+            setTasks(t=>[...tasks,newTask]);
+          setNew("");
 
+        }
+          
     }
     function delTask(index){
+
+        const updatedTasks=tasks.filter((_,i)=>i!==index);
+        setTasks(updatedTasks);
+
 
     }
     function moveUp(index){
