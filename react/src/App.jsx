@@ -14,6 +14,7 @@ import ColorPicker from './ColorPicker.jsx';
 import Counter2 from './Counter2.jsx';
 import Component3 from './Component3.jsx';
 import ToDo from './ToDo.jsx';
+import Comp5 from './Comp5.jsx';
 
 function App() {
      return(
@@ -31,11 +32,12 @@ function App() {
          <Component/>
          <Component2/>
          <Component3/>
-       
+         
          <ColorPicker/>
          <Counter/>
          <Counter2/>
          <ToDo/>
+         <Comp5/>
          <Footer/>
          
       </div>
